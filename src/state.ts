@@ -3,5 +3,7 @@ export function initState() {
   setInterval(() => {
     let countEle = document.getElementById('count');
     countEle!.innerText =  ++count + '';
+
   }, 1000);
 }
+
